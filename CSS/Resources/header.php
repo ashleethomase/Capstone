@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!--Basic Meta-->
-    <meta charset="utf-8">
-    <meta name="author" content="Ashlee Thomas-Enis">
-    <meta name="description" content="Login now OR click below to register!">
-    <title>Login</title>
-
-    <!--Mobile Specific-->
-    <meta name="viewport" content="width=device-width, initial-scale-1">
-
-    <!--CSS-->
-    <link rel="stylesheet" href="CSS/header.css">
-
-</head>
-
-<body>
-    <header>
+<header>
         <h1>The Luxury Candles</h1>
 
         <nav class="NavTags">
@@ -32,8 +13,3 @@
             </ul>
         </nav>
     </header>
-
-
-</body>
-
-</html>
