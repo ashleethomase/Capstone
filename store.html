@@ -17,7 +17,6 @@
 
     <style>
         body{
-            min-height: 100vh;
             display: flex;
             flex-direction: column;  
         }
@@ -25,6 +24,20 @@
 
     <style>
         h1 {
+            color: rgb(213, 122, 122);
+        }
+        .card {
+            border:1px solid black; 
+            width:256px;
+            height: 256px; 
+            display: inline-block;
+    }
+    .card img {
+        width:256px; 
+        height:256px;
+        object-fit: contain;
+    }
+        footer {
             color: black;
         }
     </style>
@@ -48,7 +61,51 @@
     </header>
 
     <main>
-        <p>paragraph</p>
+    <div class="card">
+        <img src="./images/candle1.jpg" alt="">
+        <h4>Ash Candle</h4>
+        <p>Coconut and beeswax blend with braided cotton wick, in glossy black glass tumbler. Comes in embossed matte pink carton.
+            8.5 ounces (240g). 3.4 inches (8.6cm) tall.</p>
+        <div class="Price">$15.00</div>
+        <button>Buy</button>
+    </div>
+    <div class="card">
+        <img src="./images/candle2.jpg" alt="align-items">
+        <h3>Cashmere Candle</h3>
+        <p>Coconut and beeswax blend with braided cotton wick, in glossy black glass tumbler. Comes in embossed matte ecru carton. 8.5 ounces (240g). 3.4 inches (8.6cm) tall. Roughly 50 hour burn time.</p>
+        <div class="Price">$20.00</div>
+        <button>Buy</button>
+    </div>
+    <div class="card">
+        <img src="./images/candle3.jpg" alt="">
+        <h3>Burning Candle</h3>
+        <p>Coconut and beeswax blend with braided cotton wick, in matte gradient glass tumbler with metallic “gold” and white text. Comes in embossed matte gradient carton with metallic “gold” and white text. 8.5 ounces (240g). 3.4 inches (8.6cm) tall. Roughly 50 hour burn time.</p></p>
+        <div class="Price">$20.00</div>
+        <button>Buy</button>
+    </div> 
+    <div class="card">
+        <img src="./images/specialcandle1.jpg" alt="">
+        <h3>BoyMom Candle</h3>
+        <p>Distinct Sandalwood and Rose Aroma—The "Boy Mom Smells Like Chaos" candle features a captivating blend of sandalwood and rose scents, offering a unique and charming fragrance reminiscent of a boy mom's vibrant life.
+            Extended Burn Time and Size</p>
+        <div class="$50.00">Price</div>
+        <button>Buy</button>
+    </div>
+    <div class="card">
+        <img src="./images/specialcandle2.jpg" alt="">\
+        <h3>Dirty Diapers</h3>
+        <p>Choose from 2 unique scents; Lavender scent is gentle, delightful, calming and soothing, is great for relaxing body and mind; Vanilla scent is warm, sweet, tasty and comforting, smells like vanilla ice cream or vanilla cake</p>
+        <div class="Price">Price</div>
+        <button>Buy</button>
+    </div>
+    <div class="card">
+        <img src="./images/specialcandle3.jpg" alt="">
+        <h3>Retire Me Please</h3>
+        <p>100% NATURAL SOY WAX - This candle is made by hand with 100% high-quality natural soy wax and premium essential oils. It burns more slowly and cleaner than paraffin wax, smokeless, harmless and non-toxic which is more beneficial to the environment and can be used for a long time with confidence.
+            LAVENDER SCENT</p>
+        <div class="Price">Price</div>
+        <button>Buy</button>
+    </div>
     </main>
 
     <footer>
@@ -57,7 +114,7 @@
         &copy; copyright reserved <br>
         <a href="mailto:athomasenis@appdev.yearup.org">ashlee@yearup.org</a></p>
     </footer>
-    
+
 </body>
 
 
